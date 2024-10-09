@@ -1,6 +1,7 @@
 {
-    "name": "nwidart/file",
+    "name": "dmn-laramod/file-module",
     "description": "",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "Nicolas Widart",

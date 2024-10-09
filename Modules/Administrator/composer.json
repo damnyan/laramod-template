@@ -1,6 +1,7 @@
 {
-    "name": "dmn/administrator",
+    "name": "dmn-laramod/administrator-module",
     "description": "",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "dc",

@@ -1,6 +1,7 @@
 {
-    "name": "dmn/common",
+    "name": "dmn-laramod/common-module",
     "description": "",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "dc",

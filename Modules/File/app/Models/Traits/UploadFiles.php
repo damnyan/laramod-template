@@ -14,7 +14,7 @@ trait UploadFiles
      */
     public function tmpToUpload(string $path = null): string|null
     {
-        if (empty($path)) {
+        if (empty(trim($path))) {
             return null;
         }
 

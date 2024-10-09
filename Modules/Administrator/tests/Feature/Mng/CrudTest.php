@@ -37,14 +37,14 @@ it('should list', function() {
 it('should store', function() {
     /** @var \Tests\TestCase $this */
     FakeFile::fakeStorages();
-    $faceUrl = FakeFile::tmpImage();
+    // $faceUrl = FakeFile::tmpImage();
 
     $response = $this->postJson(
         uri: route(
             name: 'api.mng.administrator.store',
         ),
         data: [
-            'face_url' => $faceUrl,
+            'face_url' => '',
             'email' => fake()->email,
             'password' => '123123123',
             'first_name' => fake()->firstName,

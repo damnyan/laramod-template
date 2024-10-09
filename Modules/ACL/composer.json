@@ -1,0 +1,33 @@
+{
+    "name": "dmn/acl",
+    "description": "",
+    "authors": [
+        {
+            "name": "dc",
+            "email": "damnyan@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ACL\\": "app/",
+            "Modules\\ACL\\Database\\Factories\\": "database/factories/",
+            "Modules\\ACL\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ACL\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "spatie/laravel-permission": "^6.9"
+    }
+}

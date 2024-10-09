@@ -1,0 +1,34 @@
+{
+    "name": "dmn/common",
+    "description": "",
+    "authors": [
+        {
+            "name": "dc",
+            "email": "damnyan@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Common\\": "app/",
+            "Modules\\Common\\Database\\Factories\\": "database/factories/",
+            "Modules\\Common\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Common\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "dedoc/scramble": "^0.11.16",
+        "dmn/exception": "^3.0"
+    }
+}

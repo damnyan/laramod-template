@@ -1,0 +1,17 @@
+<?php
+
+namespace $CLASS_NAMESPACE$;
+
+use Illuminate\Http\Request;
+use Modules\Common\Http\Controllers\Controller;
+
+class $CLASS$ extends Controller
+{
+    /**
+     * Handle the incoming request.
+     */
+    public function __invoke(Request $request)
+    {
+        return response()->json([]);
+    }
+}

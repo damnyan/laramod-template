@@ -29,6 +29,6 @@
     },
     "require": {
         "dedoc/scramble": "^0.11.16",
-        "dmn/exception": "^3.0"
+        "dmn/laravel-exception": "^1.0"
     }
 }
